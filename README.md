@@ -1,5 +1,4 @@
-# scrapyTest
-SCRAPY爬虫实验
+# SCRAPY爬虫实验
 
 # 第一个项目：mingyan2
 
