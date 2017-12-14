@@ -1,8 +1,8 @@
 import scrapy
 
 class mingyan(scrapy.Spider): #需要继承scrapy.Spider类
-    name = "mingyan2" #蜘蛛名
 
+    name = "mingyan2" #蜘蛛名
     def start_requests(self): #由此方法通过下面链接爬取页面
         urls = [ #爬取的链接
             'http://lab.scrapyd.cn/page/1/',
