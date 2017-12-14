@@ -21,9 +21,8 @@ class simpleUrl(scrapy.Spider):
     #     ]
     #     for url in urls:
     #         yield scrapy.Request(url=url, callback=self.parse)
-
-
     # 如果是简写初始url，此方法名必须为：parse
+
     def parse(self, response):
         page = response.url.split("/")[-2]
         filename = 'mingyan-%s.html' % page
