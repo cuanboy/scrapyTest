@@ -22,7 +22,6 @@ class mingyan(scrapy.Spider): #需要继承scrapy.Spider类
         3、定义规则，然后提取数据；
         就是这么个流程，似不似很简单呀？
         """
-
         page = response.url.split("/")[-2]     #根据上面的链接提取分页,如：/page/1/，提取到的就是：1
         filename = 'mingyan-%s.html' % page    #拼接文件名，如果是第一页，最终文件名便是：mingyan-1.html
         with open(filename, 'wb') as f:        #python文件操作，不多说了；
