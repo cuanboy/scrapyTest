@@ -13,7 +13,7 @@ class mingyan(scrapy.Spider): #需要继承scrapy.Spider类
 
     def parse(self, response):
 
-        '''
+        """
         start_requests已经爬取到页面，那如何提取我们想要的内容呢？那就可以在这个方法里面定义。
         这里的话，并木有定义，只是简单的把页面做了一个保存，并没有涉及提取我们想要的数据，后面会慢慢说到
         也就是用xpath、正则、或是css进行相应提取，这个例子就是让你看看scrapy运行的流程：
@@ -21,8 +21,7 @@ class mingyan(scrapy.Spider): #需要继承scrapy.Spider类
         2、通过链接爬取（下载）页面；
         3、定义规则，然后提取数据；
         就是这么个流程，似不似很简单呀？
-        '''
-
+        """
 
         page = response.url.split("/")[-2]     #根据上面的链接提取分页,如：/page/1/，提取到的就是：1
         filename = 'mingyan-%s.html' % page    #拼接文件名，如果是第一页，最终文件名便是：mingyan-1.html
