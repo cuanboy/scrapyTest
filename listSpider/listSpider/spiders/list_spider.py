@@ -10,7 +10,6 @@ scrapy：1.3.3
 时间：2017年12月16日15:55:00
 运行：CMD模式进入项目目录，输入命令：scrapy crawl listSpider
 
-
 """
 import scrapy
 
