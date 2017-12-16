@@ -7,3 +7,16 @@ mingyan2主要爬取 http://lab.scrapyd.cn 里面的两个页面并保存为html
 ## simpleStartUrl
 
 scrapy初始url的两种写法
+
+## itemSpider
+
+此项目爬取 http://lab.scrapyd.cn 里面的一条名言里的：名言内容、作者、标签，注意只是一条数据，然后保存为txt文档，这个练习，主要是学习scrapy css选择器的基本用法，然后结合scrapy shell 进行相应调试
+
+## listSpider
+
+此项目爬取 http://lab.scrapyd.cn 首页的所有名言，也就是列表爬取，主要学习如何使用：
+```
+for …… in ……
+
+```
+进行递归爬取 
