@@ -4,7 +4,7 @@
 python：3.6.1
 scrapy：1.3.3
 
-功能：爬取http://lab.scrapyd.cn 里面的一条数据里的：名言内容、作者、标签，注意只是一条数据，然后保存为txt文档
+功能：爬取http://lab.scrapyd.cn 里面的一条名言里的：名言内容、作者、标签，注意只是一条数据，然后保存为txt文档
 作者：cuanboy
 出处：http://www.scrapyd.cn （scrapy中文网）
 时间：2017年12月16日15:55:00
