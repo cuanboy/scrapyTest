@@ -14,7 +14,6 @@ scrapy：1.3.3
 
 import scrapy
 
-
 class itemSpider(scrapy.Spider):
     name = 'itemSpider'
     start_urls = ['http://lab.scrapyd.cn']
