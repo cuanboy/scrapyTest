@@ -3,7 +3,7 @@ import scrapy
 
 
 class NextSpiderSpider(scrapy.Spider):
-    name = "next_spider"
+    name = "nextSpider"
     allowed_domains = ["lab.scrapyd.cn"]
     start_urls = ['http://lab.scrapyd.cn/']
 
